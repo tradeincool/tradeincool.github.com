@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Why Bother With Cucumber Testing?
-subtitle: The disadvantages of using Cucumber and its widespread use as a poor man's integration test.
-author: Jack Kinsella
+title: Why another post
+subtitle: Why oh why another fake post.
+author: Jason Ruyle
 
 ---
 

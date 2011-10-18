@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Textmate to VIM
-subtitle: Where I explain how to reproduce over 110 commands from Textmate in VIM.
+title: Fake Post
+subtitle: Fake Subtitle for this post.
 /* published: false*/
-author: Jack Kinsella
+author: Jason Ruyle
 
 ---
 
