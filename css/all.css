@@ -1,5 +1,3 @@
 ---
 ---
-{% include css/main.css %}
-{% include css/code_highlights.css %}
-{% include css/widescreen.css %}
+{% include css/bootstrap.css %}
