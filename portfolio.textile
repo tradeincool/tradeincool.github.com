@@ -4,8 +4,8 @@ title: Portfolio
 subtitle: A selection of projects.
 ---
 
-* "Oxbridge Notes":#oxbridge_notes
-* "Second Conscience":#second_conscience
+* "Lorem Ipsum":#oxbridge_notes
+* "Nunc Tempor":#second_conscience
 
 h2(#oxbridge_notes). Lorem Ipsum
 
@@ -17,7 +17,7 @@ Nunc tempor purus ac odio pellentesque non euismod est tristique. Etiam consecte
 
 h3. LOREM IPSUM
 
-!images/oxbridge_notes_orders_overview.png!
+!images/ktvmi_logo_v2.png!
 
 Nunc tempor purus ac odio pellentesque non euismod est tristique. Etiam consectetur malesuada arcu sed facilisis. Nulla facilisi. Suspendisse sit amet enim non lorem venenatis rutrum vel at orci. Quisque pulvinar euismod sem ut adipiscing. Proin mollis euismod aliquam. Vestibulum at ligula metus, ut bibendum diam. Cras tempus bibendum lacus, sed vestibulum felis semper in.
 
@@ -35,5 +35,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, lacus ut
 
 Nunc tempor purus ac odio pellentesque non euismod est tristique. Etiam consectetur malesuada arcu sed facilisis. Nulla facilisi. Suspendisse sit amet enim non lorem venenatis rutrum vel at orci. Quisque pulvinar euismod sem ut adipiscing. Proin mollis euismod aliquam. Vestibulum at ligula metus, ut bibendum diam. Cras tempus bibendum lacus, sed vestibulum felis semper in.
 
-!images/second_conscience_habits.png!
+!images/ktvmi_logo_v2.png!
 
