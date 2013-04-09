@@ -11,8 +11,8 @@ small, strike, sub, sup, tt, var, center,
 dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
   vertical-align: baseline;
   }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
   }
@@ -87,13 +87,13 @@ h4, h5, h6 {
 
 h1 { font-size: 24px; }
 h1 small { font-size: 13px; font-weight: normal; }
-h2 { 
+h2 {
   font-weight: normal;
   font-size: 16px;
   padding: 5px 0 5px 30px;
   }
 h2 small { font-size: 16px; font-weight: normal; }
-h3 { 
+h3 {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: bold;
@@ -108,7 +108,7 @@ h6 { font-size: 11px; font-weight: normal; }
 p {
   font-size: 16px;
   line-height: 1.5em;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
   margin-top: 10px;
   }
 /* Use border-box box model */
@@ -158,7 +158,7 @@ p {
   overflow: visible;
   }
 
- 
+
 #main {
   padding-top: 60px;
   overflow:auto;
@@ -174,11 +174,11 @@ p {
 ---------------------------------------------*/
 
 
-/* must declare 0 margins on everything, also for main layout components use padding, not 
-vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+/* must declare 0 margins on everything, also for main layout components use padding, not
+vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
 
-#container { 
+#container {
   min-height: 100%;
   min-width: 800px;
   }
@@ -200,13 +200,13 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   font-size: 15px;
   }
 
-#footer a.help, #footer a.about{ 
+#footer a.help, #footer a.about {
   margin-right: 20px;
   padding-left: 20px;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
-  background-image: url('images/sprite.png');
+  background-image: url('../images/sprite.png');
   }
   a.about { background-position: 0 -959px; }
   a.help { background-position: 0 -1049px; }
@@ -214,7 +214,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 #footer .footer-content p {
   margin: 16px 0;
   }
-  
+
 /*Opera Fix*/
 body:before {/* thanks to Maleika (Kohoutec)*/
   content:"";
@@ -249,7 +249,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   border-radius: 15px;
 
   background: rgba(0,0,0, 0.3);
-  
+
   border: 3px solid #fff;
   margin-right: 10px;
 }
@@ -277,8 +277,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .intro .title {
   width: 800px;
   margin: 20px auto;
-  font-size: 36px; 
-  margin-bottom: 10px; 
+  font-size: 36px;
+  margin-bottom: 10px;
   font-weight: bold;
   padding-bottom: 10px;
 }
@@ -315,13 +315,13 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .post-content h1 { font-size: 36px; margin: 10px 0 20px 0; }
 .post-content h2 { font-size: 24px; margin: 10px 0 20px 0; font-weight: bold; padding: 0; }
-.post-content h3, .post-content h4, .post-content h5, .post-content h6 { 
+.post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   text-transform: none;
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   }
-  
+
 .post-content blockquote {
   padding-left: 19px;
   border-left: 1px solid #C3CCD0;
@@ -357,7 +357,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .post-content p:last-child {
   margin-bottom: 20px;
   }
-  
+
 .post-content code {
   font-family: Menlo, monospace;
   padding: 4px;
@@ -398,7 +398,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 *:first-child + html .clearfix { min-height: 1%; } /* IE7 */
 
 .icon {
-  background: transparent url(images/icons.png) no-repeat 0 0;
+  background: transparent url(../images/icons.png) no-repeat 0 0;
   width: 20px;
   height: 20px;
   display: block;
