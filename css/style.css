@@ -100,6 +100,41 @@ h6 { font-size: 11px; font-weight: normal; }
   Globals
 ---------------------------------------------*/
 
+/* Top Branding/Navigation */
+#header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 20px;
+  height: 30px;
+  background: #667880;
+  overflow: visible;
+  }
+
+
+#header a.title {
+  font-size: 14px;
+  line-height: 30px;
+  color: white;
+  height: 30px;
+  font-weight: bold;
+  }
+
+#header a.title span {
+  display: none;
+  }
+
+#header .navigation {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 12px;
+  position: relative;
+  line-height: 30px;
+  padding: 0;
+  overflow: visible;
+  }
+
 #main {
   padding-top: 60px;
   overflow:auto;
@@ -109,6 +144,80 @@ h6 { font-size: 11px; font-weight: normal; }
 #post .inner  {
   position: relative;
 }
+
+
+/* ------------------------------------------
+  Article
+---------------------------------------------*/
+
+
+
+.article-navigation {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: auto;
+}
+
+.article-navigation .article-link {
+  display: block;
+  float: left;
+  height: 30px;
+  width: 30px;
+
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+
+  background: rgba(0,0,0, 0.3);
+
+  border: 3px solid #fff;
+  margin-right: 10px;
+}
+
+.article-link:hover, .article-link.active {
+  background: #078FA2;
+}
+
+.article-wrapper {
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+
+.intro {
+  margin-top: 50px;
+  background: #E0E7EB;
+  /*background: #fff;*/
+  padding: 40px;
+  padding-bottom: 20px;
+
+  border-top: 1px solid #c3ccd0;
+  border-bottom: 1px solid #c3ccd0;
+}
+
+.intro .title {
+  width: 800px;
+  margin: 20px auto;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.intro .abstract {
+  width: 800px;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.intro .meta {
+  width: 800px;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
+
 
 /* ------------------------------------------
   Footer - a sticky one
