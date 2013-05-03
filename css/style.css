@@ -126,7 +126,7 @@ h6 { font-size: 11px; font-weight: normal; }
   }
 
 #header .navigation {
-  width: 800px;
+  width: 960px;
   margin: 0 auto;
   font-size: 12px;
   position: relative;
@@ -153,7 +153,7 @@ h6 { font-size: 11px; font-weight: normal; }
 
 
 .article-navigation {
-  width: 800px;
+  width: 960px;
   margin: 0 auto;
   margin-top: 30px;
   overflow: auto;
@@ -196,7 +196,7 @@ h6 { font-size: 11px; font-weight: normal; }
 }
 
 .intro .title {
-  width: 800px;
+  width: 960px;
   margin: 20px auto;
   font-size: 36px;
   margin-bottom: 10px;
@@ -205,13 +205,13 @@ h6 { font-size: 11px; font-weight: normal; }
 }
 
 .intro .abstract {
-  width: 800px;
+  width: 960px;
   font-size: 20px;
   margin: 20px auto;
 }
 
 .intro .meta {
-  width: 800px;
+  width: 960px;
   margin: 20px auto;
   padding-top: 20px;
 }
