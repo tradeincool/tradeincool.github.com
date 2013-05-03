@@ -6,6 +6,7 @@ abstract: Critical security issue concerning apache has been resolved to maintai
 author_twitter: jasonruyle
 author: Jason Ruyle
 categories:
+- articles
 - status
 ---
 
