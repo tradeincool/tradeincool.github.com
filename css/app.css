@@ -58,6 +58,14 @@ body,
 textarea,
 input { font: 13px/20px 'OpenSans', sans-serif; }
 
+#container,
+#footer {
+  color: #333332;
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+
 a {
   color: #526066;
   text-decoration: none;
@@ -339,9 +347,9 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   width: 800px;
   margin: 0px auto;
   padding: 20px 0;
-  font-family: 'OpenSans', sans-serif;
+  /*font-family: 'OpenSans', sans-serif;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 16px;*/
   }
 
 .post-content * {
