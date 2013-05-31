@@ -99,6 +99,53 @@ h6 { font-size: 11px; font-weight: normal; }
 /* ------------------------------------------
   Globals
 ---------------------------------------------*/
+/* Header format */
+h1 {
+  color : #000;
+  margin : 0px;
+  padding : 0px;
+  text-transform : capitalize;
+  font-size : 28px;
+  line-height : 24px;
+  font-weight : 500;
+  font-family : HelveticaNeue-condensed, sans-serif;
+  text-rendering : optimizeLegibility;
+}
+h1 a {
+  color : inherit;
+}
+h2 {
+  font-weight : normal;
+  color : #B3B3B2;
+  font-size : 18px;
+  line-height : 24px;
+  height : 24px;
+  font-family : DINWebPro-Condensed, sans-serif;
+}
+h2 .hhint {
+  opacity : 0;
+  -webkit-transition-property : opacity;
+  -webkit-transition-duration : 0.15s;
+  -moz-transition-property : all;
+  -moz-transition-duration : 0.15s;
+  transition-property : all;
+  transition-duration : 0.15s;
+}
+h2:hover .hhint {
+  opacity : 1;
+}
+h2 a,
+.h2 a {
+  color : inherit;
+}
+
+#container,
+#footer {
+  color: #333332;
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
 
 /* Top Branding/Navigation */
 #header {
