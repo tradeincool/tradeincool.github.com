@@ -100,7 +100,8 @@ h6 { font-size: 11px; font-weight: normal; }
   Globals
 ---------------------------------------------*/
 /* Header format */
-h1 {
+h1,
+.intro .title {
   color : #000;
   margin : 0px;
   padding : 0px;
@@ -114,7 +115,8 @@ h1 {
 h1 a {
   color : inherit;
 }
-h2 {
+h2,
+.abstract {
   font-weight : normal;
   color : #B3B3B2;
   font-size : 18px;
@@ -283,7 +285,6 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   position: relative;
   margin-top: -60px; /* negative value of footer height */
   height: 60px;
-
   line-height: 60px;
   background: #e0e7eb;
   border-top: 1px solid #c3ccd0;
@@ -293,7 +294,6 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 #footer .footer-content {
   width: 960px;
   margin: 0 auto;
-  font-size: 16px;
 }
 
 
