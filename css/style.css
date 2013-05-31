@@ -1047,11 +1047,11 @@ ul.site li a {
 
 .post-content {
   background: #fff;
-  padding: 100px;
-  font-family: 'OpenSans', sans-serif;
+  padding: 30px;
+  /*font-family: 'OpenSans', sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5em;*/
   border: 1px solid #C3CCD0;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.1);
   }
