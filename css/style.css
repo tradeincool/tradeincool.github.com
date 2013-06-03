@@ -1273,7 +1273,6 @@ label.error {
 .scrolling  { overflow: auto; }
 .clipping   { overflow: hidden; }
 
-
 /* ------------------------------------------
   ios and small screen alterations
 ---------------------------------------------*/
@@ -1287,3 +1286,33 @@ label.error {
     right: 0;
     }
   }
+
+/* ------------------------------------------
+  tablet screen alterations
+---------------------------------------------*/
+@media all and (max-width: 700px) {
+
+  #header .navigation,
+  .article-navigation,
+  .intro .title,
+  .intro .abstract,
+  .intro .meta,
+  #container,
+  #footer .footer-content,
+  #start,
+  #posts,
+  .document-menu-content,
+  .document .metadata-content,
+  .document .content-preview, .document .content,
+  #container .about,
+  .help,
+  .help-article {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
