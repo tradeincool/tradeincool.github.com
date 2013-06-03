@@ -1297,7 +1297,6 @@ label.error {
   .intro .title,
   .intro .abstract,
   .intro .meta,
-  #container,
   #footer .footer-content,
   #start,
   #posts,
@@ -1308,6 +1307,13 @@ label.error {
   .help,
   .help-article {
     width: 100%;
+  }
+
+  #container {
+    width: 96%;
+    max-width: 96%;
+    min-width: 96%;
+    margin-left: 2%;
   }
 
 }
