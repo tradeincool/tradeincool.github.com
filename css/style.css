@@ -156,8 +156,8 @@ h2 a,
   left: 0;
   padding: 0 20px;
   height: 30px;
-  /*background: #667880;*/
-  background: #eee;
+  background: #667880;
+  /*background: #eee;*/
   border-bottom: 1px solid #666;
   overflow: visible;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.1);
