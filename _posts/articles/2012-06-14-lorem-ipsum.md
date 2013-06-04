@@ -1,14 +1,16 @@
 ---
+published: 
+  - "true"
 layout: article
 title: The lorem ipsum
-abstract: Curabitur ac ante sit amet elit placerat luctus. Pellentesque quis tellus urna, in euismod mi. Pellentesque ultricies dictum massa, non faucibus ligula iaculis sed.
+abstract: "Curabitur ac ante sit amet elit placerat luctus. Pellentesque quis tellus urna, in euismod mi. Pellentesque ultricies dictum massa, non faucibus ligula iaculis sed."
 author_twitter: _mql
 author: Michael Aufreiter
-categories:
-- articles
+categories: articles
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper lacinia purus, id gravida tortor semper et. Mauris quis dolor at quam tincidunt lacinia quis quis nunc. In vulputate nibh at enim ullamcorper adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper lacinia purus, id gravida tortor semper et. Mauris quis dolor at quam tincidunt lacinia quis quis nunc. In vulputate nibh at enim ullamcorper adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.![Monkey on Goat](/_posts/articles/monkey-goat.gif)
 
 
 # Neque porro quisquam
