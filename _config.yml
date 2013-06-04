@@ -9,6 +9,7 @@ exclude:
 prose:
   #rooturl: "_posts"
   rooturl: ""
+  siteurl: "http://tradeincool.github.io"
   metadata:
     _posts/articles: |
       published: false
