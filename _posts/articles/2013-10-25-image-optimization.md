@@ -40,7 +40,8 @@ jpegoptim --max=100 2.jpg
 http://mishkanyc.trafficincool.com/sites/default/files/tmp/100.jpg
 Size: 509KB
 
-### Original Image Versus Max 75 Image
+### Original Image
 ![](http://mishkanyc.trafficincool.com/sites/default/files/tmp/1.jpg)
 
+### Max 75 Image
 ![](http://mishkanyc.trafficincool.com/sites/default/files/tmp/75.jpg)
