@@ -19,6 +19,7 @@ Based off the results below, I think we are probably going with --max-75 (75.jpg
 
 original image
 http://mishkanyc.trafficincool.com/sites/default/files/tmp/1.jpg
+![](http://mishkanyc.trafficincool.com/sites/default/files/tmp/1.jpg)
 
 jpegoptim --max=25 2.jpg
 2.jpg 1000x1366 24bit Exif IPTC Adobe  [OK] 634112 --> 49059 bytes (92.26%), optimized.
