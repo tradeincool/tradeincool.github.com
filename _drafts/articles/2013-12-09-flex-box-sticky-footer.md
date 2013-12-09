@@ -1,7 +1,7 @@
 ---
 published: 
   - true
-  - "true,true"
+  - "true"
 layout: article
 title: 
   - ""
