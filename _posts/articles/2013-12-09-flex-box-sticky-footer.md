@@ -1,7 +1,7 @@
 ---
 published: 
   - true
-  - "false"
+  - "true"
 layout: article
 title: Sticky by Flexbox
 abstract: Sticky footer using flexbox css
@@ -16,16 +16,26 @@ We are Trade in Cool are always looking for easier ways to put in common website
 
 Here is the basic layout we usually use:
 
-<code>
-<html>
-<head></head>
-<body>
-<div id="page">
-  <header id="branding-container"></header>
-  <div id="content-container"></div>
-  <footer id="footer-container"></footer>
-</div>
-</body>
-</html>
-</code>
+    <html>
+    <head></head>
+	<body>
+	  <div id="page">
+        <header id="branding-container"></header>
+        <div id="content-container"></div>
+        <footer id="footer-container"></footer>
+      </div>
+    </body>
+    </html>
 
+Here is the css you need to add:
+
+	body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    #content-container {
+      flex: 1;
+    }
+
+And that is it!  You don't have to do weird negative margins or calculate the height of the footer with empty div tags to push the page down.
