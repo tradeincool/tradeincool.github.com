@@ -1,5 +1,6 @@
 ---
 published: 
+  - false
   - "true"
 layout: article
 title: The lorem ipsum
@@ -7,7 +8,6 @@ abstract: "Curabitur ac ante sit amet elit placerat luctus. Pellentesque quis te
 author_twitter: _mql
 author: Michael Aufreiter
 categories: articles
-
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper lacinia purus, id gravida tortor semper et. Mauris quis dolor at quam tincidunt lacinia quis quis nunc. In vulputate nibh at enim ullamcorper adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.![Monkey on Goat](/_posts/articles/monkey-goat.gif)
