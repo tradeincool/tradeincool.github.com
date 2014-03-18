@@ -1,7 +1,7 @@
 ---
 published: 
   - true
-  - "false"
+  - "true"
 layout: article
 title: Country ban with UFW
 abstract: Ban countries with UFW
