@@ -1,7 +1,7 @@
 ---
 published: 
   - true
-  - "false"
+  - "true"
 layout: article
 title: Stock Level Control
 abstract: Stock Level Control on Checkout in Drupal Commerce
@@ -22,6 +22,7 @@ On the final submit page, they all three hit submit at the same time.  All the o
 
 We came up with a solution by disabling the default rules configuration for stock validation on the checkout page and adding our own module with the following function.
 
+```
 <?php
 /**
  * @file
@@ -59,3 +60,4 @@ function commerce_stock_custom_commerce_checkout_complete($order) {
     }
   }
 }
+```
